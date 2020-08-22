@@ -1,0 +1,3891 @@
+{
+  "intents": [
+    {
+      "intent": "Customer_Care_Authorized_User",
+      "examples": [],
+      "description": "Cambiar quién tiene acceso a una cuenta."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Quiero saber si eres real o no"
+        },
+        {
+          "text": "Eres un operador virtual o vivo?"
+        },
+        {
+          "text": "Eres una máquina o una persona real?"
+        },
+        {
+          "text": "Eres un agente virtual?"
+        },
+        {
+          "text": "Hablo con una máquina?"
+        },
+        {
+          "text": "Tu eres un agente virtual o real?"
+        },
+        {
+          "text": "PPuedes decirme, si eres vivo o virtual?"
+        },
+        {
+          "text": "Preferiría hablar con un agente virutal."
+        },
+        {
+          "text": "Podría hablar con un agente virtual?"
+        },
+        {
+          "text": "Hablo con una persona?"
+        },
+        {
+          "text": "Me confirmas si hablo con un agente virtual o con un agente real?"
+        }
+      ],
+      "description": "Preguntar si habla con un humano o un bot."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Me salvaste!"
+        },
+        {
+          "text": "Muchísimas gracias por tu ayuda!"
+        },
+        {
+          "text": "Muy amable!"
+        },
+        {
+          "text": "El agente era muy amable y resolvió mi problema inmediatamente."
+        },
+        {
+          "text": "Perfecto!"
+        },
+        {
+          "text": "Siempre puedo contar con su ayuda."
+        },
+        {
+          "text": "Siempre resuelves mis problemas, gracias."
+        },
+        {
+          "text": "Muy bien!"
+        },
+        {
+          "text": "El mejor soporte."
+        },
+        {
+          "text": "Eres el mejor."
+        },
+        {
+          "text": "Eres muy profesional."
+        },
+        {
+          "text": "Espero que me atiendas también la próxima vez."
+        },
+        {
+          "text": "Estoy muy contento con su servicio."
+        },
+        {
+          "text": "Es un placer trabajar contingo."
+        },
+        {
+          "text": "Excelente!"
+        },
+        {
+          "text": "Gracias."
+        },
+        {
+          "text": "Gracias por todo!"
+        },
+        {
+          "text": "Me alegraste el día."
+        },
+        {
+          "text": "Me gustaría llenar la encuesta de satisfacción."
+        }
+      ],
+      "description": "Expresar un sentimiento positivo o gratitud."
+    },
+    {
+      "intent": "Customer_Care_Products_Offered",
+      "examples": [
+        {
+          "text": "¿Es un buen producto?"
+        },
+        {
+          "text": "¿Puedes darme información sobre vuestros productos?"
+        },
+        {
+          "text": "¿Puedo ver el inventario para buscar un artículo?"
+        },
+        {
+          "text": "¿Qué artículos se encuentran actualmente en su inventario?"
+        },
+        {
+          "text": "¿Qué características tiene este producto?"
+        },
+        {
+          "text": "¿Qué clase de productos venden?"
+        },
+        {
+          "text": "Querria obtener informacion sobre sus productos"
+        },
+        {
+          "text": "¿Qué productos están disponibles con su empresa?"
+        },
+        {
+          "text": "¿Qué productos no proporciona su compañía?"
+        },
+        {
+          "text": "¿Qué productos recomiendas para un consultor de tecnología?"
+        },
+        {
+          "text": "¿Qué productos tienes disponibles?"
+        },
+        {
+          "text": "¿Qué productos vende su empresa?"
+        },
+        {
+          "text": "¿Qué tipo de productos  ofrecen en su empresa?"
+        },
+        {
+          "text": "¿En qué colores está disponible el teléfono?"
+        },
+        {
+          "text": "¿Cuáles productos o servicios potenciales están disponibles?"
+        },
+        {
+          "text": "¿Tienes alguna oferta de producto disponible?"
+        },
+        {
+          "text": "Me preguntaba qué productos puedo obtener en su empresa?"
+        },
+        {
+          "text": "Necesito saber sobre este producto."
+        },
+        {
+          "text": "Nuevos productos disponibles"
+        },
+        {
+          "text": "Productos y promociones"
+        }
+      ],
+      "description": "Encuentra productos que están disponibles para comprar."
+    },
+    {
+      "intent": "Cierres_Eventos_COVID",
+      "examples": [
+        {
+          "text": "¿Qué deportes se están cancelando?"
+        },
+        {
+          "text": "¿Se están cerrando los eventos?"
+        },
+        {
+          "text": "eventos y grandes reuniones"
+        },
+        {
+          "text": "¿Recibiré un reembolso por un boleto que compré?"
+        },
+        {
+          "text": "¿Por qué el gobierno está cerrando mi evento?"
+        },
+        {
+          "text": "¿Cuál es el número máximo de personas que pueden reunirse en este momento?"
+        },
+        {
+          "text": "¿Cuándo se celebrarán los campeonatos de la NCAA?"
+        },
+        {
+          "text": "¿Cuándo volverá el NHL?"
+        },
+        {
+          "text": "¿Debería sentirme seguro yendo al cine?"
+        },
+        {
+          "text": "¿Cómo sé si mi concierto fue cancelado?"
+        },
+        {
+          "text": "¿Se permite que grupos de personas se reúnan?"
+        }
+      ],
+      "description": "Información sobre eventos y grupos grandes."
+    },
+    {
+      "intent": "Customer_Care_Profile_Security_Questions",
+      "examples": [
+        {
+          "text": "¿Dónde puedo actualizar mis preguntas de seguridad?"
+        },
+        {
+          "text": "¿Puedo cambiar las preguntas de seguridad que uso cuando accedo a mi cuenta vía el teléfono?"
+        },
+        {
+          "text": "Olvidé las respuestas a mis preguntas de seguridad y no puedo entrar a mi cuenta"
+        },
+        {
+          "text": "Ayúdame a revisar y tal vez cambiar mis preguntas de seguridad"
+        },
+        {
+          "text": "¿Cómo actualizo las respuestas a mis preguntas de seguridad que la gente de servicio al cliente me pregunta?"
+        },
+        {
+          "text": "¿Cómo cambiar las preguntas de seguridad de atención al cliente en mi cuenta?"
+        },
+        {
+          "text": "¿Cómo puedo modificar mis  preguntas de seguridad de mi cuenta?"
+        },
+        {
+          "text": "¿Cuáles fueron las preguntas para verificar mi cuenta?"
+        },
+        {
+          "text": "¿Cuáles son las preguntas que elegí para asegurar mi cuenta?"
+        },
+        {
+          "text": "No recuerdo ninguna de las respuestas de seguridad, ¿Cómo puedo cambiarlas?"
+        },
+        {
+          "text": "No puedo recordar la respuesta de mi pregunta de seguridad ¿puedo modificarla?"
+        },
+        {
+          "text": "Necesito actualizar las preguntas de seguridad. ¿Puede ayudarme?"
+        },
+        {
+          "text": "¿Me podría indicar dónde cambio las preguntas de seguridad de mi cuenta?"
+        },
+        {
+          "text": "¿Cuántas preguntas de seguridad deberé contestar al hablar con un representante de servicio al cliente por teléfono?"
+        },
+        {
+          "text": "¿Qué preguntas de seguridad tengo?"
+        },
+        {
+          "text": "¿Qué pasa si olvido las respuestas a mis preguntas de seguridad?"
+        },
+        {
+          "text": "Quiero cambiar las preguntas de seguridad de mi cuenta para cambiar mi contraseña"
+        },
+        {
+          "text": "¿Puedo restablecer mis preguntas de seguridad, por favor?"
+        },
+        {
+          "text": "¿Puedo restablecer mis preguntas de seguridad?"
+        },
+        {
+          "text": "¿Puedo hacer cambios en mis preguntas de seguridad por un periodo de tiempo?"
+        }
+      ],
+      "description": "Revise o cambie las preguntas de seguridad del usuario."
+    },
+    {
+      "intent": "Protección_Infección_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo evito covid-19?"
+        },
+        {
+          "text": "¿cómo me aseguro de que mi familia esté segura?"
+        },
+        {
+          "text": "¿Cómo me protejo?"
+        },
+        {
+          "text": "¿Cuál es la mejor manera de prevenir el coronavirus?"
+        },
+        {
+          "text": "Cómo prevenir la propagación del virus"
+        },
+        {
+          "text": "¿Necesito usar una máscara facial?"
+        },
+        {
+          "text": "¿Cómo puedo proteger a mi familia de la propagación del coronavirus?"
+        },
+        {
+          "text": "¿Cuál es el riesgo de que mi hijo se enferme con COVID-19?"
+        },
+        {
+          "text": "¿Es posible evitar el virus?"
+        },
+        {
+          "text": "¿Cómo evito que me enferme?"
+        },
+        {
+          "text": "¿Con qué frecuencia debo lavarme las manos?"
+        },
+        {
+          "text": "qué debo hacer para contener la propagación del virus"
+        },
+        {
+          "text": "prevenir la propagación del virus"
+        }
+      ],
+      "description": "Cómo prevenir la infección."
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Iniciamos una vez mas?"
+        },
+        {
+          "text": "Yo quiero iniciar de nuevo"
+        },
+        {
+          "text": "Volvamos al inicio."
+        },
+        {
+          "text": "Volvamos a la conversación."
+        },
+        {
+          "text": "Una vez mas."
+        },
+        {
+          "text": "Reiniciemos."
+        },
+        {
+          "text": "Quiero volver al inicio"
+        },
+        {
+          "text": "Quiero ver todo desde el inicio."
+        },
+        {
+          "text": "Puede repetir desde el inicio?"
+        },
+        {
+          "text": "Por favor, podemos empezar de nuevo?"
+        },
+        {
+          "text": "Podemos volver al punto inicial?"
+        },
+        {
+          "text": "Podemos volver a la conversacion inicial?"
+        },
+        {
+          "text": "Podemos repetir todo desde el inicio?"
+        },
+        {
+          "text": "Podemos intentarlo una vez mas?"
+        },
+        {
+          "text": "Necesito que comencemos de nuevo."
+        },
+        {
+          "text": "Lo intentamos otra vez?"
+        },
+        {
+          "text": "Iniciemos de nuevo."
+        },
+        {
+          "text": "Iniciamos de nuevo?"
+        },
+        {
+          "text": "Empezamos nuevamente?"
+        },
+        {
+          "text": "Empecemos de nuevo."
+        }
+      ],
+      "description": "Reinicia el bot"
+    },
+    {
+      "intent": "Customer_Care_Report_Fraudulent_Use",
+      "examples": [
+        {
+          "text": "¿En qué sitio se reportan los fraudes? Quisiera saber cómo reportar un registro sospechoso."
+        },
+        {
+          "text": "Hay alguna actividad sospechosa respecto a mi cuenta que necesito notificar."
+        },
+        {
+          "text": "¿Cómo puedo denunciar los intentos de inicio de sesión sospechosos?"
+        },
+        {
+          "text": "¿Cómo puedo informar preocupaciones de un posible usuario no autorizado?"
+        },
+        {
+          "text": "¿Cómo puedo notificarle acerca de una sospecha de acceso no autorizado a mi cuenta?"
+        },
+        {
+          "text": "¿Cuál es el procedimiento para formular una denuncia relacionada con fraude de cuenta?"
+        },
+        {
+          "text": "¿Cómo puedo registrar denuncia de actividad fraudulenta en mi cuenta de ahorro?"
+        },
+        {
+          "text": "¿Cuáles son los pasos apropiados para reportar actividad fraudulenta o robo de cuenta?"
+        },
+        {
+          "text": "Un usuario no autorizado ha accedido a mi cuenta, ¿cómo reporto esta actividad fraudulenta?"
+        },
+        {
+          "text": "¿Hay información de contacto para reportar inicios de sesión no autorizados?"
+        },
+        {
+          "text": "Parece haber actividad sospechosa, posiblemente fraudulenta, en mi cuenta. ¿Cómo puedo reportar esto?"
+        },
+        {
+          "text": "¿Puede ayudarme a rastrear una persona que retira dinero de mi cuenta sin mi permiso?"
+        },
+        {
+          "text": "¿Qué podemos aplicar para prevenir el fraude de cuenta?"
+        },
+        {
+          "text": "¿Qué debo hacer con un inicio de sesión desconocido?"
+        },
+        {
+          "text": "¿Qué debo hacer para denunciar una estafa? ¿Qué puedo hacer para denunciar un registro no autorizado?"
+        },
+        {
+          "text": "Quiero reportar que alguien ingresó a mi cuenta sin autorización."
+        },
+        {
+          "text": "¿Con quién puedo hablar si sospecho alguna actividad inusual? ¿A quién puedo contactar si sospecho que alguien más está ingresando a mi cuenta?"
+        },
+        {
+          "text": "¿Cómo debería informar sobre un fraude? ¿Cómo puedo informar sobre un acceso no autorizado?"
+        },
+        {
+          "text": "¿Dónde puedo presentar una queja sobre prácticas de hackeo de la cuenta?"
+        },
+        {
+          "text": "¿Dónde se supone que debo notificar acceso fraudulento a mi cuenta?"
+        }
+      ],
+      "description": "Informar el uso fraudulento de una cuenta."
+    },
+    {
+      "intent": "Customer_Care_Employment_Inquiry",
+      "examples": [
+        {
+          "text": "¿Cuál es el proceso para la aplicación de trabajo?"
+        },
+        {
+          "text": "¿Alguno de los departamentos está contratando personal?"
+        },
+        {
+          "text": "¿Cómo accedo a informacion relacionada con puestos de empleo?"
+        },
+        {
+          "text": "¿Cómo conseguir trabajo en su tienda?"
+        },
+        {
+          "text": "¿Cómo puedo encontrar vacantes de empleo o conseguir una solicitud de empleo?"
+        },
+        {
+          "text": "¿Cuál es la ubicación de las nuevas vacantes laborales?"
+        },
+        {
+          "text": "¿Hay trabajos de tiempo completo?"
+        },
+        {
+          "text": "Hola, me pregunto si podrías ayudarme, busco oportunidades laborales en su empresa"
+        },
+        {
+          "text": "Me preguntaba si la firma está contratando actualmente y, de ser así, qué tipo de puestos están disponibles"
+        },
+        {
+          "text": "¿Para qué tipo de trabajos estás contratando actualmente?"
+        },
+        {
+          "text": "¿Puede decirme los trabajos disponibles en este país?"
+        },
+        {
+          "text": "¿Puedes avisarme cuando estás buscando nuevos empleados?"
+        },
+        {
+          "text": "¿Puedes decirme si tienes alguna vacante de empleo disponible?"
+        },
+        {
+          "text": "¿Qué empresas en mi ciudad están buscando gente con mis habilidades?"
+        },
+        {
+          "text": "Quiero solicitar empleo en su empresa, ¿hay algunos puestos disponibles?"
+        },
+        {
+          "text": "Quisiera trabajar en su compañia, Dónde puedo aplicar a una posición?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar una lista de todas vacantes de empleos actuales en tu sitio?"
+        },
+        {
+          "text": "Estoy buscando un cambio de empleo, por favor, muéstreme oportunidades en su organización"
+        },
+        {
+          "text": "Estoy preguntando sobre la posibilidad de empleo. ¿Tienen alguna apertura?"
+        },
+        {
+          "text": "¿Hay algunas oportunidades de empleo con vosotros?"
+        }
+      ],
+      "description": "Encontrar oportunidades de trabajo."
+    },
+    {
+      "intent": "NoCita",
+      "examples": [
+        {
+          "text": "Se lo agradezco pero no"
+        },
+        {
+          "text": "NO gracias"
+        },
+        {
+          "text": "Gracias pero no"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Tienes un momento, por favor?"
+        },
+        {
+          "text": "Sigues aquí?"
+        },
+        {
+          "text": "Quién eres?"
+        },
+        {
+          "text": "Buenas noches."
+        },
+        {
+          "text": "Buenos días, podemos empezar la conversación?"
+        },
+        {
+          "text": "¿Cómo está? / Oye, ¿Qué tal?"
+        },
+        {
+          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
+        },
+        {
+          "text": "¿Estás ahí?"
+        },
+        {
+          "text": "Hey, ¿cómo te va?"
+        },
+        {
+          "text": "Hola, amigo mío."
+        },
+        {
+          "text": "Hola, Cómo estás el día de hoy?"
+        },
+        {
+          "text": "Hola, ¿Cómo estás?"
+        },
+        {
+          "text": "Hola, ¿Cómo te sientes?"
+        },
+        {
+          "text": "Hola, Cómo va todo?"
+        },
+        {
+          "text": "Hola, podrías responder mi pregunta?"
+        },
+        {
+          "text": "Hola ¿puedes ayudarme?"
+        },
+        {
+          "text": "Hola, quien me puede atender?"
+        },
+        {
+          "text": "Hola, Señor."
+        }
+      ],
+      "description": "Saluda al bot."
+    },
+    {
+      "intent": "Customer_Care_Notification_Preferences",
+      "examples": [
+        {
+          "text": "¿Podrías por favor enviarme un recordatorio de pago dos días antes de la fecha límite?"
+        },
+        {
+          "text": "Quiero que me avisen por SMS y alertas por email en mis transacciones bancarias."
+        },
+        {
+          "text": "¿Puedo cambiar mi método de alertas personalizadas de SMS a notificaciones de Apple?"
+        },
+        {
+          "text": "¿Puedes reducir la frecuencia de los recordatorios de texto? Son molestos."
+        },
+        {
+          "text": "Puede enviarme un recordatorio de pago de las transferencias pendientes?"
+        },
+        {
+          "text": "¿Podrías por favor decirme el procedimiento para activar el servicio de alertas de pago?"
+        },
+        {
+          "text": "No recibo ninguna notificación. ¿Me puede ayudar con la edición de los métodos de alerta?"
+        },
+        {
+          "text": "Necesito solicitar notificaciones de alerta de pago, ¿cómo lo hago?"
+        },
+        {
+          "text": "Necesito manejar notificaciones de pagos contabilizados"
+        },
+        {
+          "text": "Hola, ¿cómo puedo averiguar más información sobre recordatorios de pago?"
+        },
+        {
+          "text": "¿Hay algún proceso disponible en línea para desactivar las alertas de pago?"
+        },
+        {
+          "text": "¿Es posible activar notificaciones de texto y app para la misma alerta?"
+        },
+        {
+          "text": "¿Cuáles son los pasos para cambiar el método de entrega de alertas a alertas por teléfono?"
+        },
+        {
+          "text": "¿Cuáles son los métodos mediante los que puedo editar métodos de entrega de alertas existentes?"
+        },
+        {
+          "text": "¿Cómo sé si estoy recibiendo todas las alertas y no me falta ninguna?"
+        },
+        {
+          "text": "¿Cómo puedo apagar mediante la app móvil las alertas de pagos publicados?"
+        },
+        {
+          "text": "¿Cómo peudo activar las alertas cuando se procesa un pago?"
+        },
+        {
+          "text": "¿Cómo hago para poner nuevos métodos de alerta en lugar del viejo?"
+        },
+        {
+          "text": "¿Cómo cambio las alertas de transacción de mi tarjeta de crédito?"
+        },
+        {
+          "text": "Actualmente, tengo los recordatorios de pago activados y quiero pararlos, ¿puedes ayudarme con eso?"
+        }
+      ],
+      "description": "Administrar las notificaciones del usuario"
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "Que quieres decir con eso?"
+        },
+        {
+          "text": "Puede explicarme nuevamente, no entendí."
+        },
+        {
+          "text": "Podriamos empezar de nuevo?"
+        },
+        {
+          "text": "Podemos dar un paso atrás?"
+        },
+        {
+          "text": "No te entiendo muy bien."
+        },
+        {
+          "text": "No respondiste a mi pregunta."
+        },
+        {
+          "text": "No estoy seguro si entendi, podría explicarme nuevamente?"
+        },
+        {
+          "text": "Lo siento pero eso no es lo que estaba preguntando"
+        },
+        {
+          "text": "No entendiste lo que dije."
+        },
+        {
+          "text": "No entendi."
+        },
+        {
+          "text": "Explicame de nuevo."
+        },
+        {
+          "text": "Eso no te estoy preguntando."
+        },
+        {
+          "text": "Eso no es lo que dije."
+        },
+        {
+          "text": "Me puedes dar mas información?"
+        },
+        {
+          "text": "Lo siento, una vez mas."
+        },
+        {
+          "text": "Lo siento, puedes repetirlo una vez mas."
+        },
+        {
+          "text": "Recapitulemos"
+        },
+        {
+          "text": "Entendiste mal."
+        },
+        {
+          "text": "Creo que no entendi, puede repetirlo?"
+        },
+        {
+          "text": "A que te refieres?"
+        }
+      ],
+      "description": "Repita o aclare la última declaración."
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Brillante respuesta."
+        },
+        {
+          "text": "Correcto, es lo que estaba buscando"
+        },
+        {
+          "text": "De acuerdo."
+        },
+        {
+          "text": "Es correcto."
+        },
+        {
+          "text": "Es exactamente lo que estaba pensando."
+        },
+        {
+          "text": "Es exactamente lo que necesitamos."
+        },
+        {
+          "text": "Esta todo perfecto."
+        },
+        {
+          "text": "Excelente respuesta."
+        },
+        {
+          "text": "Excelente trabajo."
+        },
+        {
+          "text": "Gran trabajo."
+        },
+        {
+          "text": "Has sido de gran ayuda"
+        },
+        {
+          "text": "Justo lo que necesitaba."
+        },
+        {
+          "text": "Maravilloso"
+        },
+        {
+          "text": "Muy bien, gracias."
+        },
+        {
+          "text": "Si, es eso lo que busco."
+        },
+        {
+          "text": "Perfecto"
+        },
+        {
+          "text": "Muy bueno."
+        },
+        {
+          "text": "Afirmativo."
+        },
+        {
+          "text": "Bien, lo haremos."
+        },
+        {
+          "text": "Buen trabajo."
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "Recuento_Casos_COVID",
+      "examples": [
+        {
+          "text": "¿Cuántos casos de COVID-19 hay en los Estados Unidos?"
+        },
+        {
+          "text": "¿hay alguien cerca de mí enfermo?"
+        },
+        {
+          "text": "¿cuál es el recuento de personas infectadas con coronavirus?"
+        },
+        {
+          "text": "¿Dónde están los casos?"
+        },
+        {
+          "text": "¿Hay algún caso cerca de mí?"
+        },
+        {
+          "text": "número de casos de covid en mi estado?"
+        },
+        {
+          "text": "¿Cuántos casos de coronavirus hay en mi área?"
+        },
+        {
+          "text": "¿MA tiene un caso COVID confirmado?"
+        },
+        {
+          "text": "¿Tiene EE. UU. un caso COVID confirmado?"
+        },
+        {
+          "text": "¿alguien murió de coronavirus en mi estado?"
+        },
+        {
+          "text": "¿Cuántos casos del virus hay en el mundo?"
+        },
+        {
+          "text": "¿cuántas personas están infectadas en los Estados Unidos?"
+        },
+        {
+          "text": "¿cuántas personas están enfermas en los Estados Unidos?"
+        }
+      ],
+      "description": "Información sobre el número de casos de Covid 19"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Nos vemos."
+        },
+        {
+          "text": "¡Muchas gracias, adiós!"
+        },
+        {
+          "text": "Un saludo."
+        },
+        {
+          "text": "Usted es maravilloso. Gracias por su ayuda."
+        },
+        {
+          "text": "Vaya usted con Diós!"
+        },
+        {
+          "text": "Ya me voy."
+        },
+        {
+          "text": "Hablaremos más tarde."
+        },
+        {
+          "text": "Hablamos luego."
+        },
+        {
+          "text": "Gracias por tu ayuda, hasta luego."
+        },
+        {
+          "text": "Gracias, podemos cerrar esta conversación."
+        },
+        {
+          "text": "Gracias no necesito más ayuda."
+        },
+        {
+          "text": "Fue agradable hablar contigo."
+        },
+        {
+          "text": "Eso ha sido todo lo que me hacía falta."
+        },
+        {
+          "text": "Cuídate!"
+        },
+        {
+          "text": "Buenas tardes."
+        },
+        {
+          "text": "Qué tengas una buena tarde."
+        },
+        {
+          "text": "Qué te lo pases bien."
+        },
+        {
+          "text": "OK, eso es todo lo que necesito saber."
+        },
+        {
+          "text": "¡Salud!"
+        },
+        {
+          "text": "No tengo más dudas, gracias por tu ayuda."
+        }
+      ],
+      "description": "Fin de la conversacion."
+    },
+    {
+      "intent": "Customer_Care_Loyalty_Status",
+      "examples": [
+        {
+          "text": "¿Cómo saber el estado de mis recompensas?"
+        },
+        {
+          "text": "¿Puede mostrarme mi estado de recompensa?"
+        },
+        {
+          "text": "Puede mostrar mi saldo de recompensa?"
+        },
+        {
+          "text": "Quiero saber exactamente cuantos puntos he acumulado el último mes."
+        },
+        {
+          "text": "¿Qué tanto avance han tenido mis recompensas?"
+        },
+        {
+          "text": "Se puede ver en algun lugar cuantos puntos he ganado?"
+        },
+        {
+          "text": "¿Te gustaría informarme de mi estatus de cuenta de millas?"
+        },
+        {
+          "text": "¿Podría darme una imagen de mi estado actual de recompensa?"
+        },
+        {
+          "text": "¿Me puede indicar el estado de mi cuenta de recompensas?"
+        },
+        {
+          "text": "¿Hasta dónde he llegado en mi estado para recibir recompensas?"
+        },
+        {
+          "text": "El usuario quiere saber sobre su eligibilidad o status del programa de lealtad al cliente"
+        },
+        {
+          "text": "¿Dónde puedo encontrar el status de mi progreso de recompensas?"
+        },
+        {
+          "text": "Dónde puedo consultar los puntos que tengo disponibles?"
+        },
+        {
+          "text": "¿Dónde puedo comprobar mi saldo de puntos de recompensa?"
+        },
+        {
+          "text": "¿Cuántos puntos tengo hasta el momento?"
+        },
+        {
+          "text": "¿Cuántas recompensas a clientes están disponibles para mí?"
+        },
+        {
+          "text": "¿Cuántas millas aéreas tengo en mi cuenta?"
+        },
+        {
+          "text": "¿Cuál es mi nivel de recompensa en este momento?"
+        },
+        {
+          "text": "Cual es el estado de mis puntos de fidelidad?"
+        }
+      ],
+      "description": "Preguntar sobre el estado del programa de lealtad del cliente."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "¿Puedes darme una lista de temas de cosas con las que puedes ayudarme?"
+        },
+        {
+          "text": "Tengo varios problemas y necesito saber con qué me puede ayudar."
+        },
+        {
+          "text": "Tengo algunos problemas y quiero algo de información sobre cómo conseguir ayuda."
+        },
+        {
+          "text": "Tengo algunas preguntas y necesito ayuda, ¿puedo recibir ayuda?"
+        },
+        {
+          "text": "¿Qué tipo de preguntas puedes contestar? ¿Y cuáles son tus limitaciones de respuestas?"
+        },
+        {
+          "text": "¿Qué tipo de información y problemas puedes resolver para mí?"
+        },
+        {
+          "text": "¿Qué tipo de cosas puede hacer por mí?"
+        },
+        {
+          "text": "¿Qué pasa si quiero cambiar la respuesta de texto para una intención?"
+        },
+        {
+          "text": "¿Qué hace un agente digital? ¿Para qué te uso?"
+        },
+        {
+          "text": "¿Qué clase de cosas haces?"
+        },
+        {
+          "text": "¿Puedo tener una lista de temas disponibles, con los que puedes ayudarme?"
+        },
+        {
+          "text": "¿Puedes esperar un poquito?"
+        },
+        {
+          "text": "¿Puedes ayudarme en cómo iniciar sesión en Virtual Agent?"
+        },
+        {
+          "text": "¿Podría esperar un segundo por favor?"
+        },
+        {
+          "text": "¿Podría esperar un momento por favor?"
+        },
+        {
+          "text": "¿Podría darme una lista de temas con las que puede ayudarme?"
+        },
+        {
+          "text": "¿Cuáles son las opciones disponibles si estoy usando agente virtual?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas me puedes ayudar?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas están capaz de ayudarme?"
+        },
+        {
+          "text": "¿Cómo funciona el filtro en la pantalla de capacidades?"
+        }
+      ],
+      "description": "Solicitar capacidades del bot."
+    },
+    {
+      "intent": "Limpieza_Desinfección_COVID",
+      "examples": [
+        {
+          "text": "¿Cuál es la diferencia entre limpiar y desinfectar?"
+        },
+        {
+          "text": "¿Qué métodos de limpieza matan el coronavirus?"
+        },
+        {
+          "text": "¿Debo rociarme a mí o a mis hijos con desinfectante?"
+        },
+        {
+          "text": "¿Con qué frecuencia necesito limpiar mi casa para evitar la propagación del coronavirus?"
+        },
+        {
+          "text": "Todas las tiendas no tienen toallitas desinfectantes, ¿qué hago?"
+        },
+        {
+          "text": "¿Hay desinfectantes disponibles que puedan inactivar o matar COVID-19?"
+        },
+        {
+          "text": "¿Tengo que usar lejía o cloro para matar el coronavirus?"
+        },
+        {
+          "text": "¿Necesito toallitas lysol?"
+        },
+        {
+          "text": "¿El alcohol mata al coronavirus?"
+        },
+        {
+          "text": "¿Cómo limpio mi casa correctamente?"
+        },
+        {
+          "text": "cómo me deshago de los gérmenes en mi casa?"
+        }
+      ],
+      "description": "Cómo limpiar y desinfectar."
+    },
+    {
+      "intent": "Customer_Care_Program_Inquiry",
+      "examples": [
+        {
+          "text": "¿Puedo ganar recompensas por ser un cliente leal?"
+        },
+        {
+          "text": "¿Puedo conseguir recompensas por productos que compré antes de empezar a usar el programa?"
+        },
+        {
+          "text": "¿Puedo conseguir crédito por compras previas?"
+        },
+        {
+          "text": "¿Puede explicarme el programa de cliente frecuente?"
+        },
+        {
+          "text": "¿Hay un plan de recompensas para clientes leales?"
+        },
+        {
+          "text": "¿Hay algún programa de fidelidad para los compradores frecuentes?"
+        },
+        {
+          "text": "¿Existe un programa de fidelización de clientes disponible?"
+        },
+        {
+          "text": "¿Está disponible el club de recompensas para los clientes?"
+        },
+        {
+          "text": "¿Cómo funciona el programa de cliente frecuente?"
+        },
+        {
+          "text": "¿Es posible obtener puntos por compras históricas?"
+        },
+        {
+          "text": "¿Tu empresa ofrece algunos incentivos financieros para clientes leales?"
+        },
+        {
+          "text": "¿Tienes un club de recompensas?"
+        },
+        {
+          "text": "¿Tienes beneficios de comprador frecuente?"
+        },
+        {
+          "text": "Si realizo compras frecuentes, ¿puedo obtener beneficios?"
+        },
+        {
+          "text": "Si compro frecuentemente, ¿obtendré beneficios?"
+        },
+        {
+          "text": "¿Se pueden ganar puntos de transacciones anteriores?"
+        },
+        {
+          "text": "¿Se obtienen puntos de las compras ya realizadas?"
+        },
+        {
+          "text": "¿Recibo créditos por mis otras compras?"
+        },
+        {
+          "text": "Realizo compras con regularidad, ¿puedo obtener algún beneficio por esto?"
+        },
+        {
+          "text": "¿Puedo recibir crédito de lealtad por mis compras anteriores?"
+        }
+      ],
+      "description": "Aprender sobre los programas de fidelización de clientes."
+    },
+    {
+      "intent": "Customer_Care_Appointments",
+      "examples": [
+        {
+          "text": "Quiero cambiar o cancelar mi cita en mi residencia"
+        },
+        {
+          "text": "Quiero visitar la tienda para recibir asistencia al elegir una actualización, ¿puedo reservar una cita?"
+        },
+        {
+          "text": "Hola, me gustaría realizar una cita en el banco más cercano. Puedes ayudarme hacer eso?"
+        },
+        {
+          "text": "Hola. Quiero reservar una cita en persona en la tienda cerca de mi casa, ¿puedes organizar una para mí?"
+        },
+        {
+          "text": "Hola, tengo una cita con la gerente de tienda a las 2. ¿Puedo cambiar la cita para mañana al mismo tiempo?"
+        },
+        {
+          "text": "Necesito aclarar un negocio que requiere interacción cara a cara. ¿Cómo puedo tener una cita así en una de sus tiendas?"
+        },
+        {
+          "text": "No puedo asistir a la cita, ¿podrías reprogramar una nueva?"
+        },
+        {
+          "text": "No puedo llegar a mi cita que tengo en su tienda, ¿puedo programar otra?"
+        },
+        {
+          "text": "Otros compromisos me obligan a cambiar la hora del servicio a domicilio"
+        },
+        {
+          "text": "¿Podríamos reservar una fecha para encontrarnos?"
+        },
+        {
+          "text": "¿Podría organizar una cita para que alguien venga a mi casa?"
+        },
+        {
+          "text": "Vamos a encontrarnos otro día para completar el papeleo en su banco"
+        },
+        {
+          "text": "Tengo una cita programada con mi tienda local. No necesito la cita ya. ¿Puedes cancelar la cita para mí?"
+        },
+        {
+          "text": "Si, estoy de acuerdo, nos vemos hoy por la tarde."
+        },
+        {
+          "text": "¿Puedo modificar mi cita para una hora diferente en mi apartamento?"
+        },
+        {
+          "text": "¿Cómo puedo tener una cita para encontrarme con alguien en la tienda?"
+        },
+        {
+          "text": "¿Cuándo hay citas disponibles en la tienda más cercana?"
+        },
+        {
+          "text": "Determinadas circunstancias me obligan a cancelar mi cita para visitar su tienda"
+        },
+        {
+          "text": "Es posible modificar la fecha / hora de mi cita inicial a un día diferente?"
+        },
+        {
+          "text": "¿Puedo reservar una sesión en persona para aprender a usar mi nuevo teléfono en la tienda más cercana a mi casa?"
+        }
+      ],
+      "description": "Programar o administrar una cita en la tienda."
+    },
+    {
+      "intent": "Customer_Care_Store_Location",
+      "examples": [
+        {
+          "text": "¿Dónde está la tienda más cercana que vende accesorios?"
+        },
+        {
+          "text": "¿Dónde está ubicada la tienda principal? Estoy en el centro de la ciudad."
+        },
+        {
+          "text": "¿Están planeando a abrir una tienda en mi barrio pronto?"
+        },
+        {
+          "text": "Estoy buscando las ubicaciones de tiendas más cercanas alrededor."
+        },
+        {
+          "text": "¿Hay algunas ubicaciones de tiendas físicas cerca de mi ubicación?"
+        },
+        {
+          "text": "Hola, ¿puedes darme la ubicación más cercana de tu empresa?"
+        },
+        {
+          "text": "¿Puede ayudarme a encontrar la tienda más cercana?"
+        },
+        {
+          "text": "Podría informarme cuales son las tiendas más cercanas usando la dirección de mi hogar?"
+        },
+        {
+          "text": "Muéstreme la tienda más cercana a mi ubicación"
+        },
+        {
+          "text": "Mi teléfono no funciona y no estoy en mi localidad, ¿cuál es mi tienda más cercana?"
+        },
+        {
+          "text": "¿Tienen un mapa con la ubicación de sus sucursales?"
+        },
+        {
+          "text": "Quisiera saber dónde están ubicadas sus tiendas físicas cercanas a mí"
+        },
+        {
+          "text": "Quiero visitar una tienda para ver qué aparatos están en oferta. ¿Puedes proveerme la tienda más cercana a mi ubicación actual?"
+        },
+        {
+          "text": "¿Puedes decirme la ubicación de una tienda cercana que tiene accesorios por mi actual teléfono móvil?"
+        },
+        {
+          "text": "¿Puede proporcionarme instrucciones para llegar a la tienda?"
+        },
+        {
+          "text": "Mi teléfono está disponible en la tienda. Necesito su dirección."
+        },
+        {
+          "text": "Hola, quiero saber en qué dirección está vuestra empresa"
+        },
+        {
+          "text": "¿A qué tienda puedo ir para obtener atención más rápida?"
+        },
+        {
+          "text": "¿Cómo puedo llegar a la tienda más cercana a mí en autobús?"
+        }
+      ],
+      "description": "Ubique una ubicación de tienda física o una dirección."
+    },
+    {
+      "intent": "Customer_Care_Cancel_Account",
+      "examples": [
+        {
+          "text": "Deseo cancelar mi plan."
+        },
+        {
+          "text": "Quiero cancelar esta cuenta, tiene demasiados términos y condiciones"
+        },
+        {
+          "text": "quiero dar de baja mi cuenta"
+        },
+        {
+          "text": "Quiero eliminar la cuenta de mi hijo"
+        },
+        {
+          "text": "Quiero saber cómo puedo cerrar mi cuenta de ahorros conjunta?"
+        },
+        {
+          "text": "Quisiera cancelar mi servicio, ¿puedes hacer eso por mí?"
+        },
+        {
+          "text": "Se necesita alguna identificación para cancelar mi cuenta."
+        },
+        {
+          "text": "¿Qué necesito hacer para detener todos mis servicios con usted y cerrar mi cuenta?"
+        },
+        {
+          "text": "Voy a cambiar mi residencia y quiero terminar mi cuenta"
+        },
+        {
+          "text": "Me traslado lejos de esta zona y deseo cancelar mi cuenta"
+        },
+        {
+          "text": "Hola El usuario desea cancelar o cerrar una cuenta."
+        },
+        {
+          "text": "He utilizado mi membresía gratuita por favor cierre esta cuenta ahora"
+        },
+        {
+          "text": "Dime los detalles acerca de como cerrar una cuenta."
+        },
+        {
+          "text": "Cuales son los pasos a seguir para terminar esta cuenta?"
+        },
+        {
+          "text": "¿Con cuánto tiempo de anticipacion debo de dar aviso para cancelar mi servicio?"
+        },
+        {
+          "text": "¿Cómo puedo cancelar mi servicio telefónico con su empresa?"
+        },
+        {
+          "text": "¿Cómo debo cancelar mi plan?"
+        },
+        {
+          "text": "No estoy contento con tu servicio, ¿puedo cerrar mi cuenta?"
+        },
+        {
+          "text": "¿Podría anular la suscripción?"
+        },
+        {
+          "text": "Puede algun familiar cerrar la cuenta en mi nombre"
+        }
+      ],
+      "description": "Cancelar o cerrar una cuenta."
+    },
+    {
+      "intent": "Customer_Care_User_Profile",
+      "examples": [
+        {
+          "text": "Mi número de contacto ha cambiado, ¿puedo actualizarlo?"
+        },
+        {
+          "text": "Mii dirección de residencia esta desactualizada, me gustaría cambiarla"
+        },
+        {
+          "text": "Mi antiguo correo electrónico se ha hackeado por eso no lo estoy utilizando más. Creé un nuevo y deseo que se lo actualice en su sistema."
+        },
+        {
+          "text": "Me robaron el telefono asi que tuve que cambiar mi numero, me pueden ayudar a actualizarlo?"
+        },
+        {
+          "text": "¿Me puede mostrar dónde puedo cambiar la dirección de correo electrónico de mi cuenta online?"
+        },
+        {
+          "text": "Supongo que hay un error de ortografía en mi ID de correo electrónico, ¿puedes por favor cambiarlo para corregirlo?"
+        },
+        {
+          "text": "Quiero actualizar mi dirección. Por favor, ayúdame con esto y dime todo paso a paso."
+        },
+        {
+          "text": "¿Puedes cambiar mi correo electrónico en mi cuenta en línea, porque no puedo iniciar sesión hoy?"
+        },
+        {
+          "text": "Por favor, puedes cambiar mi dirección en mi lista de información de contactos?"
+        },
+        {
+          "text": "Cambié mi dirección de email recientemente y necesito actualizarla con ustedes."
+        },
+        {
+          "text": "Cambio mi residencia y quiero actualizar mi dirección de casa. ¿Necesitas algunos documentos para actualizar mi nueva dirección?"
+        },
+        {
+          "text": "¿Cómo puedo cambiar mi dirección personal de facturación?"
+        },
+        {
+          "text": "Deseo cambiar mi número de contacto en mi sesión de este sitio web."
+        },
+        {
+          "text": "Estoy tratando de cambiar la dirección de email asociada a mi cuenta pero me sigue mostrando un mensaje de error, ¿puedo hacerlo por teléfono contigo?"
+        },
+        {
+          "text": "Hola, ¿Puedes enviarme un enlace en dónde pueda ingresar y cambiar el número telefónico de contacto en mi cuenta?"
+        },
+        {
+          "text": "Hola, quiero actualizar mi dirección contigo. ¿Qué es la manera más fácil de hacerlo?"
+        },
+        {
+          "text": "Me mudé de casa y mi dirección actual no es válida. Traté de cambiar mi dirección en línea pero no puedo. ¿Puedes darme información sobre cómo actualizarla?"
+        },
+        {
+          "text": "Me mudé recientemente, y necesito actualizar mi dirección en su sistema"
+        },
+        {
+          "text": "Mi número de línea fija cambió. ¿Puedes por favor actualizar mi número de contacto en mi cuenta?"
+        }
+      ],
+      "description": "Cambiar la información del usuario en su cuenta"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Puedo hacerle algunas preguntas de validación de las ventas"
+        },
+        {
+          "text": "¿Con qué tipo de robot estoy interactuando?"
+        },
+        {
+          "text": "¿Cuál es su versión?"
+        },
+        {
+          "text": "Cuántos idiomas hablas?"
+        },
+        {
+          "text": "De qué país eres?"
+        },
+        {
+          "text": "Dime tu nombre completo."
+        },
+        {
+          "text": "Dónde estás ahora mismo?"
+        },
+        {
+          "text": "¿Eres un representante oficial de conversación?"
+        },
+        {
+          "text": "Estoy buscando una solución para mejorar mi compromiso con los clientes"
+        },
+        {
+          "text": "¿Hablas alemán?"
+        },
+        {
+          "text": "Me gustaría configurar el bot de conversación para mi negocio."
+        },
+        {
+          "text": "Me puedes decir como se llama la aplicación?"
+        },
+        {
+          "text": "¿Puede darme información general sobre usted?"
+        },
+        {
+          "text": "¿Puede explicarme la diferencia entre este sistema y cualquier otro?"
+        },
+        {
+          "text": "¿Puedo hacer mis preguntas usando Siri en lugar de esta aplicación?"
+        },
+        {
+          "text": "Qué color tienen tus ojos?"
+        },
+        {
+          "text": "Quiero crear un agente virtual que hable portugués"
+        },
+        {
+          "text": "Quiero entender cómo funcionas"
+        },
+        {
+          "text": "Qué te gusta hacer en tu tiempo libre?"
+        },
+        {
+          "text": "Tienes algún interés?"
+        }
+      ],
+      "description": "Solicitar atributos personales genéricos."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Ya no quiero seguir con esta conversación."
+        },
+        {
+          "text": "Voy a cambiar de tema."
+        },
+        {
+          "text": "Ya no necesito su ayuda."
+        },
+        {
+          "text": "Ya no quiero continuar con esa solicitud."
+        },
+        {
+          "text": "Ya no quiero continuar con esta conversación"
+        },
+        {
+          "text": "Quiero otra solicitud."
+        },
+        {
+          "text": "Que estas haciendo ahora?"
+        },
+        {
+          "text": "Puedo hacer una solicitud diferente."
+        },
+        {
+          "text": "Puede decirme algo sobre ti?"
+        },
+        {
+          "text": "Puede ayudarme con otra solicitud?"
+        },
+        {
+          "text": "Podemos hablar de otra cosa?"
+        },
+        {
+          "text": "Podemos continuar con la otra solicitud?"
+        },
+        {
+          "text": "Podemos cambiar el tema?"
+        },
+        {
+          "text": "Me gustaria que empecemos de nuevo"
+        },
+        {
+          "text": "Hablame de otro tema."
+        },
+        {
+          "text": "Continuamos con otro tema."
+        },
+        {
+          "text": "Cambiemos de conversación."
+        },
+        {
+          "text": "Quiero terminar la conversación."
+        }
+      ],
+      "description": "Cambiar a un tema diferente."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "No estoy de acuerdo."
+        },
+        {
+          "text": "Voy a quejarme."
+        },
+        {
+          "text": "Tu comportamiento es inexcusable."
+        },
+        {
+          "text": "Nunca me has ayudado."
+        },
+        {
+          "text": "No te mereces este trabajo."
+        },
+        {
+          "text": "No puede ser!"
+        },
+        {
+          "text": "Cómo te atreves a tratarme de este modo?"
+        },
+        {
+          "text": "El agente era maldispuesto."
+        },
+        {
+          "text": "El comportamiento del agente era inapropiado."
+        },
+        {
+          "text": "Eres un inútil."
+        },
+        {
+          "text": "Espero no necesitar tu ayada más."
+        },
+        {
+          "text": "Este servicio no sirve para nada."
+        },
+        {
+          "text": "No me trates así."
+        },
+        {
+          "text": "No me lo creo."
+        },
+        {
+          "text": "No me has dicho la verdad."
+        },
+        {
+          "text": "Me has proporcionado la información errónea."
+        },
+        {
+          "text": "Lo que me estás diciendo es muy frustrante."
+        },
+        {
+          "text": "La peor experiencia que he tenido en mi vida con un agente."
+        },
+        {
+          "text": "Increíble, mi problema sigue sin resolverse un mes."
+        },
+        {
+          "text": "Estoy muy decepcionado."
+        }
+      ],
+      "description": "Expresar comentarios desfavorables."
+    },
+    {
+      "intent": "Customer_Care_Profile_Password",
+      "examples": [
+        {
+          "text": "Hola El usuario desea recuperar o cambiar la contraseña que está asociada a la cuenta"
+        },
+        {
+          "text": "Puede resolver mi problema con la renovación de NIP de la tarjeta de crédito?"
+        },
+        {
+          "text": "Tengo problemas con la renovación de NIP de la tarjeta de crédito"
+        },
+        {
+          "text": "¿Dónde puedo encontrar la información sobre el proceso de cambio de NIP de la tarjeta de crédito"
+        },
+        {
+          "text": "¿Cuáles son los pasos para emitir un nuevo NIP para la tarjeta de crédito"
+        },
+        {
+          "text": "¿Cómo puedo actualizar mi NIP para poder hablar con sus agentes de atención al cliente por teléfono?"
+        },
+        {
+          "text": "Se me ha olvidado la contraseña para acceder a mi cuenta."
+        },
+        {
+          "text": "Quisiera cambiar el NIP que uso para acceder a mi cuenta cuando hablo con un representante de ventas"
+        },
+        {
+          "text": "Quisiera alguna información sobre cómo cambiar mi número NIP para mi tarjeta de crédito"
+        },
+        {
+          "text": "¿Puedo preguntar sobre el NIP de mi cuenta cuando trato con agentes?"
+        },
+        {
+          "text": "¿Puedo cambiar la contraseña de mi cuenta de facturación?"
+        },
+        {
+          "text": "¿Puede decirme desde dónde puedo ver la contraseña de mi perfil para mi cuenta?"
+        },
+        {
+          "text": "¿Puede ayudarme con el proceso de cambio de NIP de la tarjeta de crédito"
+        },
+        {
+          "text": "¿Podría decirme cómo puedo generar nuevo NIP de la tarjeta de crédito"
+        },
+        {
+          "text": "¿Podemos actualizar mi contraseña ahora, como estamos en el teléfono, para que no hayan problemas?"
+        },
+        {
+          "text": "No estoy seguro si mi contraseña no ha sido usada por otra persona, puedo averiguarlo?"
+        },
+        {
+          "text": "Necesito una nueva contraseña de acceso a mi cuenta."
+        },
+        {
+          "text": "Necesito ayuda para generar una nueva contraseña para tarjetas de crédito"
+        },
+        {
+          "text": "¿Qué puede decirme sobre el tema de restablecer el NIP de la tarjeta bancaria"
+        },
+        {
+          "text": "Mi contrasena expiró y no puedo ingresar, me ayuda a cambiarla?"
+        }
+      ],
+      "description": "Recuperar o cambiar la contraseña del usuario."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "No es lo que pienso."
+        },
+        {
+          "text": "Sobre que me estas hablando?"
+        },
+        {
+          "text": "Que dices?"
+        },
+        {
+          "text": "No te entiendo nada."
+        },
+        {
+          "text": "No necesito eso."
+        },
+        {
+          "text": "No me estas entendiendo."
+        },
+        {
+          "text": "No es una buena repuesta."
+        },
+        {
+          "text": "No estas entendiendo lo que dije."
+        },
+        {
+          "text": "No es lo que he estado buscando."
+        },
+        {
+          "text": "No es lo que estoy preguntando."
+        },
+        {
+          "text": "No entiendo lo que dices."
+        },
+        {
+          "text": "No entiendo."
+        },
+        {
+          "text": "No entendiste la clave."
+        },
+        {
+          "text": "No comprendiste nada."
+        },
+        {
+          "text": "La respuesta es incorrecta."
+        },
+        {
+          "text": "Estas equivocado."
+        },
+        {
+          "text": "Eso no me ayuda."
+        },
+        {
+          "text": "Es la respuesta equivocada."
+        },
+        {
+          "text": "Esa repuesta no es correcta."
+        },
+        {
+          "text": "De qué estas hablando?"
+        }
+      ],
+      "description": "Indique que la respuesta del bot no responde a una pregunta."
+    },
+    {
+      "intent": "CancelarCita",
+      "examples": [
+        {
+          "text": "Voy a cancelar mi cita"
+        },
+        {
+          "text": "Quiero cancelar micita"
+        },
+        {
+          "text": "quisiera cancelar mi cita"
+        },
+        {
+          "text": "Ya no quiero mi cita"
+        },
+        {
+          "text": "Quiero cancelar mi cita"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Puedes esperarme un segundo."
+        },
+        {
+          "text": "Puedes darme un momento?"
+        },
+        {
+          "text": "Puedes esperarme"
+        },
+        {
+          "text": "Regreso ahora?"
+        },
+        {
+          "text": "Regreso ahora."
+        },
+        {
+          "text": "Regreso en un momento."
+        },
+        {
+          "text": "Regreso mas tarde."
+        },
+        {
+          "text": "Te pongo en espera un momento."
+        },
+        {
+          "text": "Esperame un segundo."
+        },
+        {
+          "text": "Ya regreso."
+        },
+        {
+          "text": "Necesito un momento."
+        },
+        {
+          "text": "No tengo la informacion aquí, puedes esperarme?"
+        },
+        {
+          "text": "Podemos hablar mas tarde?"
+        },
+        {
+          "text": "Podemos terminar mas tarde."
+        },
+        {
+          "text": "Esperame en línea."
+        },
+        {
+          "text": "Dejame para que lo reviso."
+        },
+        {
+          "text": "Dame unos minutos."
+        },
+        {
+          "text": "Dame un momento."
+        },
+        {
+          "text": "Dame mas tiempo, no tengo la información aca."
+        },
+        {
+          "text": "Continuamos en unos minutos?"
+        }
+      ],
+      "description": "Indique un retraso en la entrada del bot"
+    },
+    {
+      "intent": "Síntomas_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo sé si estoy enfermo?"
+        },
+        {
+          "text": "Creo que podría tener el virus."
+        },
+        {
+          "text": "Viajé a Italia recientemente. ¿Qué hago?"
+        },
+        {
+          "text": "debería hacerme la prueba de coronavirus"
+        },
+        {
+          "text": "¿debo hacerme la prueba de coronavirus si tengo tos?"
+        },
+        {
+          "text": "si, me ha dolido la cabeza"
+        },
+        {
+          "text": "Creo que estoy infectado"
+        },
+        {
+          "text": "¿Qué son los síntomas?"
+        },
+        {
+          "text": "estoy enfermo"
+        },
+        {
+          "text": "¿Necesito hacerme la prueba de coronavirus?"
+        },
+        {
+          "text": "He viajado recientemente. ¿Qué hago?"
+        }
+      ],
+      "description": "Síntomas relacionados con Covid 19."
+    },
+    {
+      "intent": "Customer_Care_Store_Hours",
+      "examples": [
+        {
+          "text": "¿Cuáles son las horas de apertura de su tienda más cercana a mi dirección de casa?"
+        },
+        {
+          "text": "¿Cuándo abren la tienda de la compañía el próximo viernes?"
+        },
+        {
+          "text": "Hola, ¿Cuál es el horario de la tienda de servicios de atención?"
+        },
+        {
+          "text": "Hola, ¿Podría decirme sus horarios, entre semana y fines de semana?"
+        },
+        {
+          "text": "Hola. Hay una tienda telefónica cerca de mi casa y quiero saber su horario laboral, ¿puedes ayudarme?"
+        },
+        {
+          "text": "Necesito conocer el horario de una tienda"
+        },
+        {
+          "text": "Necesito visitar una de sus tiendas y quisiera información de sus horarios de apertura"
+        },
+        {
+          "text": "¿Cuándo se cierran tiendas?"
+        },
+        {
+          "text": "Hasta que hora tienen abiertas las oficinas?"
+        },
+        {
+          "text": "¿Puedes decirme cuáles son las horas de operación para la tienda más cercana a mi ubicación?"
+        },
+        {
+          "text": "¿Puedes decirme hasta que hora estáis abiertos?"
+        },
+        {
+          "text": "¿Puedes decirme hasta que horas estan abiertas las tiendas?"
+        },
+        {
+          "text": "¿Puedes proveerme los horarios de negocio de sus tiendas por favor? Quiero agendar una cita"
+        },
+        {
+          "text": "¿Qué horario de apertura tienen las tiendas?"
+        },
+        {
+          "text": "¿Sus tiendas están abiertas 24*7?"
+        },
+        {
+          "text": "¿Tienes abierto durante los días de fiestas?"
+        },
+        {
+          "text": "¿Hasta qué hora puedo pasar por la tienda?"
+        },
+        {
+          "text": "¿A qué hora cierran las tiendas?"
+        },
+        {
+          "text": "¿Cuál es el horario de apertura el sábado de mi tienda local?"
+        }
+      ],
+      "description": "Encontrar el horario comercial."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "¿Cómo reconzco si su página web es confiable?"
+        },
+        {
+          "text": "Qué tipos de medidas se han tomado para proteger esta conversación?"
+        },
+        {
+          "text": "Qué sistemas de protección usan contra los hackers?"
+        },
+        {
+          "text": "¿Qué medidas de seguridad están usadas para asegurar que este chat es seguro?"
+        },
+        {
+          "text": "Quisiera asegurarme que mis detalles de tarjeta están seguros, ¿puedes hacerlo?"
+        },
+        {
+          "text": "¿Puedo estar seguro que mi información de tarjeta guardada está cifrada y asegurada?"
+        },
+        {
+          "text": "¿Puedo confiar en todo lo que leo en este chat?"
+        },
+        {
+          "text": "¿Pueden asegurarme que toda la información de mi cuenta está protegida?"
+        },
+        {
+          "text": "Puede demostrarme que esta conversación es segura?"
+        },
+        {
+          "text": "¿Puede confirmarme si esa red es segura?"
+        },
+        {
+          "text": "¿Mi informacion personal de pago es manejada seguramente?"
+        },
+        {
+          "text": "Hola El usuario desea garantías de que cualquier información que proporciona en la conversación está protegida y segura."
+        },
+        {
+          "text": "Hay algunas precauciones contra los hackers?"
+        },
+        {
+          "text": "¿Hay alguna razón para desconfiar de este chat?"
+        },
+        {
+          "text": "Es esto un chat oficial?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar su certificado de seguridad?"
+        },
+        {
+          "text": "Cómo sé que este chat no es una estafa?"
+        },
+        {
+          "text": "¿Cómo saber que puedo confiar en la información obtenida en esta chat sesión?"
+        },
+        {
+          "text": "¿Cómo puedo garantizar la protección de la información de los consumidores?"
+        },
+        {
+          "text": "¿Cómo puede asegurar que nuestra conversación por chat es confidencial?"
+        }
+      ],
+      "description": "Expresar preocupaciones sobre la seguridad del bot."
+    },
+    {
+      "intent": "Customer_Care_Contact_Us",
+      "examples": [
+        {
+          "text": "¿Puedes darme las maneras diferentes de ponerme en contacto con ustedes?"
+        },
+        {
+          "text": "¿Puede llamarme? ¿Puedo enviar un número telefónico por mensaje directo?"
+        },
+        {
+          "text": "Puede ayudarme con el numero de la tienda? Necesito llamar"
+        },
+        {
+          "text": "¿Cuál es su número telefónico de contacto para preguntas de facturación?"
+        },
+        {
+          "text": "¿Cuál es su tienda general más cercana a mí?"
+        },
+        {
+          "text": "¿Cuál es una dirección de email en la que puedo contactarlos?"
+        },
+        {
+          "text": "¿De qué otra forma puedo llamar a esta empresa?"
+        },
+        {
+          "text": "Hola, ¿podrías decirme el número telefónico de mi tienda local, por favor?"
+        },
+        {
+          "text": "Hola  ¿puedes darme la información de contacto de empresa?"
+        },
+        {
+          "text": "Hola. Tengo un problema técnico y quiero contactar a mi proveedor de servicios."
+        },
+        {
+          "text": "Me gustaría ponerme en contacto con usted mediante correo electrónico."
+        },
+        {
+          "text": "Mi problema no puede ser resuelto en el sitio web o sistemas automatizados. ¿Algún centro de servicio o número telefónico 24 horas al que pueda llamar?"
+        },
+        {
+          "text": "Necesito encontrar el número telefónico de uno de tus tiendas en mi área más próxima, ¿puedes ayudarme?"
+        },
+        {
+          "text": "Necesito hablar directamente con mi proveedor de servicio por favor"
+        },
+        {
+          "text": "Necesito llamar a una tienda en mi zona, ¿puedo obtener un número de ti?"
+        },
+        {
+          "text": "Por favor dame el número telefónico directo de un agente humano de mi proveedor de servicio"
+        },
+        {
+          "text": "Terminé de enviar de nuevo la información como me pidieron. Ahora, ¿cómo los contacto?"
+        },
+        {
+          "text": "Prefiro llamaros por telefono"
+        },
+        {
+          "text": "¿Puedo contactar la empresa por correo, si necesito?"
+        }
+      ],
+      "description": "Encontrar información de contacto básica."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "Que es lo que estás buscando?"
+        },
+        {
+          "text": "No se que quieres."
+        },
+        {
+          "text": "No se que necesitas."
+        },
+        {
+          "text": "No se que buscas."
+        },
+        {
+          "text": "No me convences con tu respuesta."
+        },
+        {
+          "text": "No he entendido."
+        },
+        {
+          "text": "Que quieres decir?"
+        },
+        {
+          "text": "Siendo honesto, no entendí."
+        },
+        {
+          "text": "No estoy segura de lo que necesitas."
+        },
+        {
+          "text": "No estoy muy convencida."
+        },
+        {
+          "text": "No estoy convencida."
+        },
+        {
+          "text": "No estoy contenta con tu respuesta."
+        },
+        {
+          "text": "No entiendo que es lo que necesitas."
+        },
+        {
+          "text": "No entendí que es lo que necesitas."
+        },
+        {
+          "text": "Dame una pista."
+        },
+        {
+          "text": "Aclarame que necesitas."
+        },
+        {
+          "text": "Aclarame que deseas."
+        },
+        {
+          "text": "Que es lo que buscas?"
+        },
+        {
+          "text": "Para ser sincero, no has entendido."
+        },
+        {
+          "text": "No tengo idea de lo que pides."
+        }
+      ],
+      "description": "Indique que no hay una respuesta definitiva a una pregunta."
+    },
+    {
+      "intent": "Descripción_COVID",
+      "examples": [
+        {
+          "text": "¿qué es el nuevo coronavirus?"
+        },
+        {
+          "text": "¿Qué es COVID-19?"
+        },
+        {
+          "text": "¿qué es el coronavirus?"
+        },
+        {
+          "text": "¿Es el coronavirus lo mismo que el SARS?"
+        },
+        {
+          "text": "¿Se ha identificado la causa de COVID-19?"
+        },
+        {
+          "text": "¿Qué tan peligroso es esto?"
+        },
+        {
+          "text": "¿Cómo se transmite COVID-19?"
+        },
+        {
+          "text": "¿Es el coronavirus lo mismo que un resfriado?"
+        },
+        {
+          "text": "¿Es el coronavirus lo mismo que MERS?"
+        },
+        {
+          "text": "¿De dónde vino el coronavirus?"
+        }
+      ],
+      "description": "Descripción general de Covid 19."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Necesito hablar con una persona real, en lugar de un sistema automatizado de respuestas, por favor."
+        },
+        {
+          "text": "Sería posible hablar con una persona?"
+        },
+        {
+          "text": "Quiero hablar con una persona."
+        },
+        {
+          "text": "Puedo hablar con una persona real?"
+        },
+        {
+          "text": "Puedes transferirme a un agente real?"
+        },
+        {
+          "text": "No quiero hablar con el agente virtual."
+        },
+        {
+          "text": "Necesito hablar con alquien vivo."
+        },
+        {
+          "text": "Dejame hablar con un agente."
+        },
+        {
+          "text": "Creo que es mejor hablar con una persona."
+        },
+        {
+          "text": "Cómo puedo contactar un ser vivo?"
+        },
+        {
+          "text": "Quiero que me pongan en contacto con un número diferente para las cosas relacionadas con esta cuenta."
+        },
+        {
+          "text": "Puedo hablar con una persona?"
+        },
+        {
+          "text": "Deseo hablar con un agente."
+        },
+        {
+          "text": "Buenos días podría hablar por teléfono contigo?"
+        },
+        {
+          "text": "Hola, me conectas con el soporte tecnico?"
+        },
+        {
+          "text": "Transferirme a un agente por favor."
+        },
+        {
+          "text": "¿Puedo tener información de contacto para hablar con un agente real?"
+        },
+        {
+          "text": "¿Puedes ayudarme a conectar con un agente?"
+        },
+        {
+          "text": "¿Puede enviarme un número telefónico para que hable con un representante humano de ventas?"
+        },
+        {
+          "text": "Por favor ayudame a contactar a un agente."
+        },
+        {
+          "text": "Podrías ponerme en contacto con un operador?"
+        },
+        {
+          "text": "Perfecto. Ahora, me gustaría hablar con un agente sobre algunos cargos."
+        },
+        {
+          "text": "Pasame con un agente experto!"
+        },
+        {
+          "text": "Necesito hablar directamente con un agente."
+        },
+        {
+          "text": "Nada contra maquinas, pero ponme con un operador."
+        },
+        {
+          "text": "Mi factura está incorrecta, quiero hablar con un representante."
+        },
+        {
+          "text": "Llama a un representante."
+        },
+        {
+          "text": "Hola, ¿puedes transferir mi llamada a un agente humano? Deseo hablar directamente con un ser humano."
+        },
+        {
+          "text": "Hola, ¿podría transferirme al agente vivo, por favor?"
+        },
+        {
+          "text": "Hola! Estaba hablando con un agente y se me ha quedado colgado el chat y he perdido la conexión."
+        },
+        {
+          "text": "¿Hay un número de servicio al cliente que pueda usar para contactar a la compañía telefónica y hablar directamente con un agente?"
+        },
+        {
+          "text": "Hay algún ser vivo con cuál podría hablar?"
+        },
+        {
+          "text": "Esto es muy frustrante, quiero hablar con una persona viva y real."
+        },
+        {
+          "text": "Ayudame a ponerme en contacto con una persona."
+        }
+      ],
+      "description": "Solicitar un agente humano"
+    },
+    {
+      "intent": "Customer_Care_Open_Account",
+      "examples": [
+        {
+          "text": "¿Qué guía debería seguir para abrir una cuenta en esta compañía?"
+        },
+        {
+          "text": "Yo soy extranjera y necesito abrir mi cuenta aquí, como puedo hacerlo?"
+        },
+        {
+          "text": "¿Cuáles son los pasos que necesito seguir para abrir una cuenta con su empresa?"
+        },
+        {
+          "text": "Estoy tratando de iniciar sesión como un nuevo usuario, ¿podría usted guiarme a través de los pasos por favor?"
+        },
+        {
+          "text": "Me gustaría registrarme e iniciar sesión como un usuario completamente nuevo."
+        },
+        {
+          "text": "Necesito ayuda para entrar en mi cuenta como cliente nuevo."
+        },
+        {
+          "text": "Necesito crear una nueva cuenta."
+        },
+        {
+          "text": "¿Podrías mostrarme cómo se crea una cuenta nueva?"
+        },
+        {
+          "text": "¿Puede ayudarme a crear una nueva cuenta?"
+        },
+        {
+          "text": "¿Puede mostrarme el método para crear una nueva cuenta?"
+        },
+        {
+          "text": "¿Puedes mostrarme dónde puedo crear un nuevo usuario?"
+        },
+        {
+          "text": "Puedo abrir mas de dos cuentas con ustedes?"
+        },
+        {
+          "text": "Puedo crear un nueva cuenta en linea?"
+        },
+        {
+          "text": "¿Que necesito para abrir una cuenta?"
+        },
+        {
+          "text": "Quisiera abrir una cuenta nueva."
+        },
+        {
+          "text": "¿Cómo encontrar el registro de usuario en página?"
+        },
+        {
+          "text": "¿Cómo puedo comenzar una cuenta?"
+        },
+        {
+          "text": "¿Cuando puedo acceder a mi nueva cuenta?"
+        },
+        {
+          "text": "¿Cuando queda creada mi cuenta?"
+        },
+        {
+          "text": "¿Cuál es el proceso para abrir una cuenta nueva?"
+        }
+      ],
+      "description": "Abrir una cuenta."
+    },
+    {
+      "intent": "Cierres_Escuelas_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo afectará el cierre los registros de asistencia de mi hijo?"
+        },
+        {
+          "text": "¿Debería mi hijo quedarse en casa y no irse a la escuela?"
+        },
+        {
+          "text": "¿Cuándo abrirán las escuelas?"
+        },
+        {
+          "text": "¿Qué sucede después de que finaliza el período de cierre ordenado de tres semanas?"
+        },
+        {
+          "text": "¿están abiertas las escuelas?"
+        },
+        {
+          "text": "¿Qué significa el cierre escolar ordenado para las boletas de calificaciones?"
+        },
+        {
+          "text": "¿Se cierran las escuelas?"
+        },
+        {
+          "text": "¿Cómo puedo obtener las últimas noticias sobre el cierre de mi escuela?"
+        },
+        {
+          "text": "¿Puede mi hijo ir a la escuela?"
+        },
+        {
+          "text": "¿Los estudiantes aún se graduarán este año?"
+        }
+      ],
+      "description": "Información sobre escuelas locales."
+    },
+    {
+      "intent": "ReservarCita",
+      "examples": [
+        {
+          "text": "Una cita por favor"
+        },
+        {
+          "text": "Quiero agendar una cita"
+        },
+        {
+          "text": "Quiero una cita"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Customer_Care_Redeem_Points",
+      "examples": [
+        {
+          "text": "¿Puedes decirme cómo puedo obtener recompensas aplicando mis puntos adicionales?"
+        },
+        {
+          "text": "Por favor, muéstrame todas las opciones para artículos por los que puedo canjear mis puntos."
+        },
+        {
+          "text": "¿Puedes añadir mis puntos adicionales para que pueda conseguir recompensas?"
+        },
+        {
+          "text": "¿Puedes decirme cómo puedo obtener recompensas aplicando mis puntos de bonificación?"
+        },
+        {
+          "text": "¿Puedes decirme cómo usar mis puntos de recompensas para pagar por crédito telefónico?"
+        },
+        {
+          "text": "¿Cómo pago un saldo sobresaliente con puntos de lealtad?"
+        },
+        {
+          "text": "¿Cómo puedo redimir mis puntos de fidelidad para obtener una recompensa?"
+        },
+        {
+          "text": "¿Cuáles son las instrucciones para usar mis puntos de lealtad?"
+        },
+        {
+          "text": "¿Cuándo vencen mis puntos?"
+        },
+        {
+          "text": "¿Puedo canjear mis recompensas en efectivo y depositarlas en mi cuenta corriente en otro banco?"
+        },
+        {
+          "text": "¿Es posible usar mis puntos de lealtad para pagar mi factura?"
+        },
+        {
+          "text": "Me gustaría usar mis puntos para reclamar una recompensa."
+        },
+        {
+          "text": "¿Me puede indicar cómo puedo utilizar mis puntos para realizar una compra?"
+        },
+        {
+          "text": "¿Puedo gastar puntos de fidelidad para obtener recompensas?"
+        },
+        {
+          "text": "¿Qué artículos pueden canjearse con puntos de recompensa?"
+        },
+        {
+          "text": "Quiero abonar mis puntos de recompensa a los cargos debidos."
+        },
+        {
+          "text": "Quiero canjear todas las millas que tengo en este momento."
+        },
+        {
+          "text": "Quiero usar mis puntos de lealtad para recompensas."
+        },
+        {
+          "text": "Tengo puntos actuales, ¿puedo cobrar algunos o todos ellos?"
+        },
+        {
+          "text": "Tengo un importe de crédito debido, ¿puedo usar mis puntos de lealtad como pago parcial?"
+        }
+      ],
+      "description": "Canjear puntos para hacer una compra."
+    },
+    {
+      "intent": "Ubicaciones_Prueba_COVID",
+      "examples": [
+        {
+          "text": "¿Dónde encuentro la prueba de coronavirus?"
+        },
+        {
+          "text": "¿Dónde puedo hacerme la prueba?"
+        },
+        {
+          "text": "¿Puedo hacerme la prueba de coronavirus con mis médicos?"
+        },
+        {
+          "text": "¿Puedo pruebarme en mi casa?"
+        },
+        {
+          "text": "¿Cómo me hago la prueba?"
+        },
+        {
+          "text": "¿Puedo hacerme la prueba en Walgreens?"
+        },
+        {
+          "text": "¿ubicaciones de prueba?"
+        }
+      ],
+      "description": "Dónde hacerse la prueba para Covid 19."
+    },
+    {
+      "intent": "Customer_Care_Transfer_Points",
+      "examples": [
+        {
+          "text": "¿Pueden estos puntos de fidelidad ser transferidos a mi otra cuenta?"
+        },
+        {
+          "text": "¿Cómo puedo cambiar el nombre de dueño de la cuenta de los puntos de recompensas?"
+        },
+        {
+          "text": "¿Cómo puedo transferir mis puntos de cuentas diferentes?"
+        },
+        {
+          "text": "¿Cómo puedo transferir puntos a otra cuenta?"
+        },
+        {
+          "text": "¿Cómo se transfieren los puntos de cuenta antiguos a una nueva cuenta?"
+        },
+        {
+          "text": "¿Cuál es el método de añadir millas a una cuenta abierta recientemente?"
+        },
+        {
+          "text": "Por favor, dígame la forma de transferir estos puntos de recompensa"
+        },
+        {
+          "text": "Transfiere mis puntos a una cuenta distinta, por favor"
+        },
+        {
+          "text": "¿Sería posible transferir mis puntos de recompensa a una cuenta independiente?"
+        },
+        {
+          "text": "¿Puedo transferir mis puntos de esta cuenta a otra?"
+        },
+        {
+          "text": "¿Puedo regalar mis puntos a algún amigo?"
+        },
+        {
+          "text": "¿Puedo llevar mis puntos a una cuenta diferente?"
+        },
+        {
+          "text": "Es posible transferir un saldo de puntos de una cuenta a otra?"
+        },
+        {
+          "text": "¿En qué momento puedo mover puntos entre un par de cuentas?"
+        },
+        {
+          "text": "¿Es posible enviar mis créditos a un amigo?"
+        },
+        {
+          "text": "¿Hay alguna forma en que pueda mover mi saldo de puntos a otra cuenta?"
+        },
+        {
+          "text": "¿Hay alguna otra forma de transferir puntos entre otras cuentas?"
+        },
+        {
+          "text": "¿Hay una manera de mover mis puntos de recompensa entre dos o más cuentas?"
+        },
+        {
+          "text": "¿Mis puntos son transferibles entre cuentas?"
+        },
+        {
+          "text": "¿Puedes decirme cómo transferir mis puntos de la vieja cuenta a mi nueva cuenta?"
+        }
+      ],
+      "description": "Tranferir puntos entre cuentas."
+    },
+    {
+      "intent": "Restricciones_de_Viaje_COVID",
+      "examples": [
+        {
+          "text": "¿Necesito una nota del médico para viajar?"
+        },
+        {
+          "text": "¿Debo cancelar mi vuelo a Denver?"
+        },
+        {
+          "text": "¿Es seguro volar a Seattle?"
+        },
+        {
+          "text": "Acabo de viajar. ¿Qué hago?"
+        },
+        {
+          "text": "necesito quedarme en casa"
+        },
+        {
+          "text": "¿Puedo viajar?"
+        },
+        {
+          "text": "¿Hay restricciones de viaje vigentes todavía?"
+        },
+        {
+          "text": "¿Qué sucede si necesito tomar un vuelo con urgencia?"
+        }
+      ],
+      "description": "Información sobre viajes durante la pandemia de Covid 19."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Te he perdido."
+        },
+        {
+          "text": "Estás allá?"
+        },
+        {
+          "text": "Hablame si estas ahi"
+        },
+        {
+          "text": "Me has dejado en espera."
+        },
+        {
+          "text": "Me has escuchado?"
+        },
+        {
+          "text": "Necesitas mas tiempo?"
+        },
+        {
+          "text": "No te escucho"
+        },
+        {
+          "text": "Porque no me respondes?"
+        },
+        {
+          "text": "Que esta pasando?"
+        },
+        {
+          "text": "Que te has hecho?"
+        },
+        {
+          "text": "Quien esta ahi?"
+        },
+        {
+          "text": "A dónde te has ido?"
+        },
+        {
+          "text": "Alguien allí?"
+        },
+        {
+          "text": "Alguien esta ahí?"
+        },
+        {
+          "text": "Creo que hemos perdido la conexión."
+        },
+        {
+          "text": "Dónde estás?"
+        },
+        {
+          "text": "Estas todavía allí?"
+        },
+        {
+          "text": "Estoy hablando con alguien?"
+        },
+        {
+          "text": "Todavia estas en línea?"
+        }
+      ],
+      "description": "Pídale al bot que indique que está disponible."
+    },
+    {
+      "intent": "Resultados_Prueba_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo puedo obtener los resultados de mi prueba?"
+        },
+        {
+          "text": "Ha pasado una semana. ¿A quién puedo llamar para obtener los resultados de mi examen?"
+        },
+        {
+          "text": "Mi médico aún no me ha devuelto los resultados de mi prueba"
+        },
+        {
+          "text": "resultados de la prueba?"
+        },
+        {
+          "text": "¿Los resultados de mi prueba llegan por correo?"
+        },
+        {
+          "text": "¿Cuándo puedo obtener mis resultados?"
+        },
+        {
+          "text": "¿Quién me dará los resultados de mi prueba del COVID?"
+        }
+      ],
+      "description": "Cómo obtener los resultados de la prueba Covid 19."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Olvídalo, no entendiste."
+        },
+        {
+          "text": "Volvamos un paso atrás."
+        },
+        {
+          "text": "Volvamos al tema inicial."
+        },
+        {
+          "text": "Volvamos al tema anterior."
+        },
+        {
+          "text": "Volvamos a iniciar."
+        },
+        {
+          "text": "Te lo voy a repetir."
+        },
+        {
+          "text": "Quieres que te lo repita?"
+        },
+        {
+          "text": "Creo que quiero algo difertente."
+        },
+        {
+          "text": "Eso no es lo que estoy diciendo."
+        },
+        {
+          "text": "Eso no es lo que quiero."
+        },
+        {
+          "text": "Espera, estamos hablando de cosas diferentes."
+        },
+        {
+          "text": "Esto no es lo que quiero."
+        },
+        {
+          "text": "He cambiado de opinion."
+        },
+        {
+          "text": "Lo dire nuevamente."
+        },
+        {
+          "text": "Olvidalo."
+        },
+        {
+          "text": "Me he dado cuenta que eso no es lo que estoy buscando."
+        },
+        {
+          "text": "No entendiste, iniciemos de nuevo."
+        },
+        {
+          "text": "No entendiste, olvídalo."
+        },
+        {
+          "text": "No es correcto, olvídalo."
+        },
+        {
+          "text": "No es lo que estoy buscando."
+        }
+      ],
+      "description": "Pídale al bot que retroceda un paso."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Qué sueles hacer para divertirte?"
+        },
+        {
+          "text": "Sorpréndeme con algo chistoso."
+        },
+        {
+          "text": "Te gusta hacer chistes?"
+        },
+        {
+          "text": "Te gustan los chistes?"
+        },
+        {
+          "text": "Te ha pasado algo chistoso hoy?"
+        },
+        {
+          "text": "Me aburro."
+        },
+        {
+          "text": "Estoy aburrido."
+        },
+        {
+          "text": "Divierteme!"
+        },
+        {
+          "text": "Dime un chiste sarcástico."
+        },
+        {
+          "text": "Dime un chiste."
+        },
+        {
+          "text": "Dime otro chiste!"
+        },
+        {
+          "text": "Dime algo divertido."
+        },
+        {
+          "text": "Cuéntame un chiste."
+        },
+        {
+          "text": "Cuál es tu chiste favorito?"
+        },
+        {
+          "text": "Me gustan los chistes, cuéntame uno."
+        },
+        {
+          "text": "Me gustaría que me diviertas."
+        },
+        {
+          "text": "Puedes entretenerme?"
+        },
+        {
+          "text": "Puedo jugar juegos aquí?"
+        },
+        {
+          "text": "Quiero reírme un poco, cuéntame algo divertido."
+        },
+        {
+          "text": "Sabes contar chistes?"
+        }
+      ],
+      "description": "Solicito una broma"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ApellidoM",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Lara",
+          "synonyms": [
+            "lara",
+            "ara"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lozano",
+          "synonyms": [
+            "lozano"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rodriguez",
+          "synonyms": [
+            "rodriguez"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Respuesta",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Si",
+          "synonyms": [
+            "si",
+            "sí"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NO",
+          "synonyms": [
+            "No"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Sintomas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Dolor de Cabez",
+          "synonyms": [
+            "dolor de cabeza"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fiebre",
+          "synonyms": [
+            "fiebre",
+            "calentura"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tos",
+          "synonyms": [
+            "tos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ApellidoP",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Maldonado",
+          "synonyms": [
+            "maldonado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Alonso",
+          "synonyms": [
+            "alonso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Flores",
+          "synonyms": [
+            "flores"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Fernando",
+          "synonyms": [
+            "Fer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jaziel",
+          "synonyms": [
+            "jaziel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Blanca",
+          "synonyms": [
+            "blanca"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Doctores",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Doctor Simi",
+          "synonyms": [
+            "doctor simi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Doctor Juan Pablo",
+          "synonyms": [
+            "doctor juan pablo",
+            "Doctor Juanpablo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Doctor Pedro",
+          "synonyms": [
+            "Doctor pedro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Doctor Sostenes",
+          "synonyms": [
+            "doctor sóstenes",
+            "Doctor sostenes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.cloud.ibm.com/api/v1/namespaces/LIRIASA_Test/actions/Escribir_DB",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Basic YTZmODY0YTgtMzE3MS00ZGFhLWExZTYtYzAyZTliM2QyZmE4OkZzOFZ3NWxDOTJjRFRPalJleER4dVpISUpSRVJKY29GQU9DSHZ3QUpISklJeWdOM1h1T1NWWm5SZlZNR2dMSnM="
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "slot",
+      "parent": "node_6_1594554758104",
+      "variable": "$ApellidoP",
+      "dialog_node": "slot_4_1594554911730",
+      "previous_sibling": "response_6_1595368611183"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1594554758104",
+      "variable": "$Name",
+      "dialog_node": "slot_4_1594554970752",
+      "previous_sibling": "slot_7_1594554937078"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1594554758104",
+      "variable": "$ApellidoM",
+      "dialog_node": "slot_7_1594554937078",
+      "previous_sibling": "slot_4_1594554911730"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_6_1594554758104",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1595368611183",
+      "previous_sibling": "response_6_1595368610494"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_6_1594554758104",
+      "conditions": "$webhook_result_6",
+      "dialog_node": "response_6_1595368610494"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Quisiera confirmar su cita?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1594568654843",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1594568654858",
+      "previous_sibling": "handler_9_1594568654858"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1594568654843",
+      "context": {
+        "Respuesta_Si": "@Respuesta:Si"
+      },
+      "conditions": "@Respuesta:Si",
+      "event_name": "input",
+      "dialog_node": "handler_9_1594568654858"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Puede escribir su apellido materno por favor? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1594554937078",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1594554937085",
+      "previous_sibling": "handler_8_1594554937085"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1594554937078",
+      "context": {
+        "ApellidoM": "@ApellidoM"
+      },
+      "conditions": "@ApellidoM",
+      "event_name": "input",
+      "dialog_node": "handler_8_1594554937085"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿A qué hora quiere su cita?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1594567872704",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1594567872713",
+      "previous_sibling": "handler_4_1594567872713"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1594567872704",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_4_1594567872713"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_2_1594555463862",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1595368052615",
+      "previous_sibling": "response_5_1594555487244"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entiendo $name lamento mucho tu situación. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1594555463862",
+      "conditions": "$webhook_result_4",
+      "dialog_node": "response_5_1594555487244",
+      "previous_sibling": "slot_7_1594555530312"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1594555463862",
+      "variable": "$Sintomas_Fiebre",
+      "dialog_node": "slot_7_1594555530312",
+      "previous_sibling": "slot_1_1594555488167"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1594555463862",
+      "variable": "$Sintomas__Dolor",
+      "dialog_node": "slot_1_1594555488167"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Puede escribir su apellido paterno por favor? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1594554911730",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1594554911744",
+      "previous_sibling": "handler_1_1594554911744"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1594554911730",
+      "context": {
+        "ApellidoP": "@ApellidoP"
+      },
+      "conditions": "@ApellidoP",
+      "event_name": "input",
+      "dialog_node": "handler_1_1594554911744"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Puede indicarme su nombre? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1594554970752",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1594554970760",
+      "previous_sibling": "handler_2_1594554970760"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1594554970752",
+      "context": {
+        "Name": "@Name"
+      },
+      "conditions": "@Name",
+      "event_name": "input",
+      "dialog_node": "handler_2_1594554970760"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Cuándo quiere su cita? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1594567824475",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1594567824497",
+      "previous_sibling": "handler_7_1594567824497"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1594567824475",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_7_1594567824497"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_8_1594786739700",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1594786970811",
+      "previous_sibling": "response_1_1594786968454"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1594786739700",
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_1_1594786968454",
+      "previous_sibling": "slot_6_1594787284884"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1594786739700",
+      "variable": "$Doctores",
+      "dialog_node": "slot_6_1594787284884"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Ha sufrido de fiebre? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1594555530312",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1594555530325",
+      "previous_sibling": "handler_2_1594555530325"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1594555530312",
+      "context": {
+        "Sintomas_Fiebre": "@Sintomas:Fiebre"
+      },
+      "conditions": "@Sintomas:Fiebre",
+      "event_name": "input",
+      "dialog_node": "handler_2_1594555530325"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido $Name $ApellidoP $ApellidoM su cita estará lista. Sólo necesito un poco más de información. ¿Está bien?"
+              },
+              {
+                "text": "Todo esto para salvaguardar a ti y a todos. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594553712430",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1594555269998"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1594555056797",
+      "previous_sibling": "node_6_1594554758104"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta2",
+      "parent": "node_1_1594553712430",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {},
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1594567769941"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1594567437275",
+      "previous_sibling": "node_2_1594555463862"
+    },
+    {
+      "type": "standard",
+      "title": "Cita Agendada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido $Name, sus cita es el día $date a las $time con el $Doctores ¿Está bien? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594553712430",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1594568626654"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1594568292715",
+      "previous_sibling": "node_8_1594786739700"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gracias $Name, su cita ha sido guardada con éxito, que tenga un buen día."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594553712430",
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1594569015093",
+      "previous_sibling": "node_9_1594568626654"
+    },
+    {
+      "type": "frame",
+      "title": "Datos",
+      "parent": "node_1_1594553712430",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "nombre": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_6"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1594555056797"
+      },
+      "conditions": "@Name",
+      "dialog_node": "node_6_1594554758104",
+      "previous_sibling": "response_1_1594783020837"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_1_1594553712430",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1594783020837",
+      "previous_sibling": "response_10_1594783020120"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1594553712430",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_10_1594783020120",
+      "previous_sibling": "response_4_1594783018175"
+    },
+    {
+      "type": "frame",
+      "title": "Doctor",
+      "parent": "node_1_1594553712430",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "doctor": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1594568292715"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_8_1594786739700",
+      "previous_sibling": "node_8_1594567769941"
+    },
+    {
+      "type": "frame",
+      "title": "LosSintomas",
+      "parent": "node_1_1594553712430",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "sintoma1": "<?input.text?>",
+            "sintoma2": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_4"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1594567437275"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1594555463862",
+      "previous_sibling": "node_4_1594555269998"
+    },
+    {
+      "type": "frame",
+      "title": "Confirmar",
+      "parent": "node_1_1594553712430",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1594569015093"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1594568626654",
+      "previous_sibling": "node_10_1594568292715"
+    },
+    {
+      "type": "frame",
+      "title": "FechaYHora",
+      "parent": "node_1_1594553712430",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1594786739700"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_8_1594567769941",
+      "previous_sibling": "node_1_1594567437275"
+    },
+    {
+      "type": "standard",
+      "title": "Sintomas Covid",
+      "parent": "node_1_1594553712430",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "dolencia": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_5"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1594555463862"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1594555269998",
+      "previous_sibling": "node_7_1594555056797"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro que si, ¿Con quién tengo el gusto? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594553712430",
+      "dialog_node": "response_4_1594783018175"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1594568626654",
+      "dialog_node": "response_5_1594568653951",
+      "previous_sibling": "slot_1_1594568654843"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1594568626654",
+      "variable": "$Respuesta_Si",
+      "dialog_node": "slot_1_1594568654843"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Ha sufrido de dolor de cabeza?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1594555488167",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1594555488180",
+      "previous_sibling": "handler_8_1594555488180"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1594555488167",
+      "context": {
+        "Sintomas__Dolor": "@Sintomas:(Dolor de Cabez)"
+      },
+      "conditions": "@Sintomas:(Dolor de Cabez)",
+      "event_name": "input",
+      "dialog_node": "handler_8_1594555488180"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Con cuál doctor quiere su consulta?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1594787284884",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1594787284891",
+      "previous_sibling": "handler_10_1594787284891"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1594787284884",
+      "context": {
+        "Doctores": "@Doctores"
+      },
+      "conditions": "@Doctores",
+      "event_name": "input",
+      "dialog_node": "handler_10_1594787284891"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1594567769941",
+      "dialog_node": "response_4_1594567823637",
+      "previous_sibling": "slot_4_1594567872704"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1594567769941",
+      "variable": "$time",
+      "dialog_node": "slot_4_1594567872704",
+      "previous_sibling": "slot_6_1594567824475"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1594567769941",
+      "variable": "$date",
+      "dialog_node": "slot_6_1594567824475"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_4_1594555269998",
+      "conditions": "$webhook_result_5",
+      "dialog_node": "response_4_1595368547270",
+      "previous_sibling": "response_10_1595368545608"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_4_1594555269998",
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1595368547891",
+      "previous_sibling": "response_4_1595368547270"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Cómo se ha sentido últimamente y qué síntomas ha sufrido? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1594555269998",
+      "dialog_node": "response_10_1595368545608"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_1_1594567437275",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1595368001338",
+      "previous_sibling": "response_5_1595368000754"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_1_1594567437275",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_5_1595368000754",
+      "previous_sibling": "response_3_1595367999120"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gracias por la información $Name, será de guan utilidad."
+              },
+              {
+                "text": "Para salvaguardar a usted y a todos. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594567437275",
+      "dialog_node": "response_3_1595367999120"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              },
+              {
+                "text": "¿Podría repetir por favor? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_6_1594553936532",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Cita",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "key": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#ReservarCita",
+      "dialog_node": "node_1_1594553712430",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "CancelarCita",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido, su cita ha sido cancelada con éxito!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#CancelarCita",
+      "dialog_node": "node_2_1594554102611",
+      "previous_sibling": "node_1_1594553712430"
+    },
+    {
+      "type": "standard",
+      "title": "NoCitaN",
+      "output": {
+        "generic": [
+          {
+            "title": "img_Gracias",
+            "source": "https://i.dlpng.com/static/png/6630973_preview.png",
+            "description": "Agradece",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Espero haberle sido de ayuda."
+              },
+              {
+                "text": "Ante la contingencia le comparto la siguiente imagen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "img_COVID19",
+            "source": "https://cdn2.excelsior.com.mx/media/inside-the-note/pictures/2020/03/10/medidas-coronavirus.jpg",
+            "description": "Prevención COVD-19",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#NoCita",
+      "dialog_node": "node_6_1594553936532",
+      "previous_sibling": "node_2_1594554102611"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola, mi nombre es MAV. ¿Cómo puedo ayudarle?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenido"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Medical Voice",
+  "language": "es",
+  "description": ""
+}
